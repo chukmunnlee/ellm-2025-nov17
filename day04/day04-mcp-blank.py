@@ -38,3 +38,4 @@ def get_crypto_price(crypto = 'bitcoin') -> str:
 # TODO: Start the server
 if __name__ == "__main__":
   mcp.run()
+  #mcp.run(transport="streamable-http")

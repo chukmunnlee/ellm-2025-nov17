@@ -1,0 +1,16 @@
+{
+   "servers": {
+      "Crypto MCP": {
+         "command": "/home/cmlee/.local/bin/uv",
+         "args": [
+            "run",
+            "--frozen",
+            "--with",
+            "mcp[cli]",
+            "mcp",
+            "run",
+            "/opt/tmp/ellm-2025-nov17/day04/day04-mcp-blank.py"
+         ]
+      }
+   }
+}
